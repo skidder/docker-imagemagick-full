@@ -38,7 +38,7 @@ This installs a fully featured version of *ffmpeg* with all of it's dependencies
 
 All of the recommended and suggested packages are installed for ImageMagick as per the Ubuntu package details: http://packages.ubuntu.com/trusty/imagemagick
 
-The completed ImageMagick delegates list is as follows:
+The installed ImageMagick will have the following delegates enabled:
 
 * bzlib 
 * djvu 
