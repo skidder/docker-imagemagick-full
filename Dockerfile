@@ -20,7 +20,6 @@ RUN \
 # POVRAY
 RUN \
   apt-get update && \
-  # These packages are directly required/recommended for imagemagick
   apt-get -y install povray && \
   rm -rf /var/lib/apt/lists/*
 
@@ -37,13 +36,12 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 # IMAGEMAGICK
+# Install all the recommended and suggested packages for ImageMagick
 RUN \
   apt-get update && \
-  # Install all the recommended and suggested packages for ImageMagick
   apt-get -y install ghostscript libmagickcore5-extra netpbm autotrace \
     cups-bsd curl enscript gimp grads groff-base hp2xx \
     html2ps libwmf-bin mplayer radiance sane-utils \
     texlive-base-bin transfig ufraw-batch xdg-utils && \
-  # Install ImageMagick itself
   apt-get -y install gnuplot imagemagick-doc imagemagick
   rm -rf /var/lib/apt/lists/*
