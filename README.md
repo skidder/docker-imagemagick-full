@@ -113,5 +113,6 @@ The installed ImageMagick will have the following delegates enabled:
 
 ### 3. Version History ###
 
-* Version 0.0.1 *
+**Version 0.0.1**
+
 Initial commit.
