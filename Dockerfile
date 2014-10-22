@@ -43,5 +43,5 @@ RUN \
     cups-bsd curl enscript gimp grads groff-base hp2xx \
     html2ps libwmf-bin mplayer radiance sane-utils \
     texlive-base-bin transfig ufraw-batch xdg-utils && \
-  apt-get -y install gnuplot imagemagick-doc imagemagick
+  apt-get -y install gnuplot imagemagick-doc imagemagick && \
   rm -rf /var/lib/apt/lists/*
