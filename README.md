@@ -5,4 +5,8 @@ This is a Docker automated build script (aka Dockerfile) which creates an Ubuntu
 ### Version History ###
 
 **0.0.1**
+
+```
+#!shell
 Initial commit.
+```
