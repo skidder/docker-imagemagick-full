@@ -1,6 +1,8 @@
 # ImageMagick-Full
-# Version: 0.0.1
-# Repo: https://bitbucket.org/acleancoder/imagemagick-full
+# Author:     Sean Matheson
+# Version:    0.0.1
+# Repo:       https://bitbucket.org/acleancoder/imagemagick-full
+# Docker Hub: https://registry.hub.docker.com/u/acleancoder/imagemagick-full/
 
 FROM ubuntu:14.04
 
