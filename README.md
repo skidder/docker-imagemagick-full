@@ -114,6 +114,11 @@ The installed ImageMagick will have the following delegates enabled:
 
 ```
 #!text
+
+Version 0.0.2
+FIXED: Curl package version.
+ADDED: Cleaning up of packages at end of script.
+
 Version 0.0.1
 Initial commit.
 ```

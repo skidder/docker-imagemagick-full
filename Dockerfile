@@ -1,6 +1,6 @@
 # ImageMagick-Full
 # Author:     Sean Matheson
-# Version:    0.0.1
+# Version:    0.0.2
 # Repo:       https://bitbucket.org/acleancoder/imagemagick-full
 # Docker Hub: https://registry.hub.docker.com/u/acleancoder/imagemagick-full/
 
@@ -48,7 +48,7 @@ RUN \
     netpbm=2:10.0-15ubuntu2 \
     autotrace=0.31.1-16build2 \
     cups-bsd=1.7.2-0ubuntu1.2 \
-    curl=7.35.0-1ubuntu2.1 \
+    curl=7.35.0-1ubuntu2.2 \
     enscript=1.6.5.90-2 \
     gimp=2.8.10-0ubuntu1 \
     grads=2:2.0.1-1build1 \
@@ -68,3 +68,7 @@ RUN \
     imagemagick-doc=8:6.7.7.10-6ubuntu3 \
     imagemagick=8:6.7.7.10-6ubuntu3 && \
   rm -rf /var/lib/apt/lists/*
+
+# Clean the cache created by package installations
+RUN \
+  apt-get clean
