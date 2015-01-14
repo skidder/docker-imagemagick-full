@@ -35,6 +35,7 @@ You can find details of it here: https://launchpad.net/~jon-severinsson/+archive
 This installs a fully featured version of *ffmpeg* with all of it's dependencies in shared library mode.
 
 The installed ffmpeg configuration is:
+
 * --arch=amd64
 * --disable-stripping
 * --enable-avresample
@@ -114,11 +115,12 @@ The installed ImageMagick will have the following delegates enabled:
 
 ```
 #!text
-
-Version 0.0.2
+=======
+**Version 0.0.2**
 FIXED: Curl package version.
 ADDED: Cleaning up of packages at end of script.
 
-Version 0.0.1
+=======
+**Version 0.0.1**
 Initial commit.
 ```
